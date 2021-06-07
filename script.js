@@ -20,5 +20,5 @@ document
 
 document.getElementById("resetButton").addEventListener("click", function () {
   c = 0;
-  document.getElementById("n").innerHTML = c;
+  document.getElementById("number").innerHTML = c;
 });
