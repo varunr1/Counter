@@ -4,7 +4,7 @@ document
   .getElementById("incrementButton")
   .addEventListener("click", function () {
     c++;
-    document.getElementById("n").innerHTML = c;
+    document.getElementById("number").innerHTML = c;
   });
 
 document
@@ -15,7 +15,7 @@ document
     } else {
       c--;
     }
-    document.getElementById("n").innerHTML = c;
+    document.getElementById("number").innerHTML = c;
   });
 
 document.getElementById("resetButton").addEventListener("click", function () {
